@@ -2,7 +2,11 @@
 
 ![example](./exa1.png)
 
-## About
+### Link
+
+https://twitter.com/sugoi_gamer
+
+### About
 
 Jokey twitter bot. Grabs an anime/manga from animenewsnetwork API and tweets it.
 
