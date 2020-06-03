@@ -1,7 +1,13 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const config = require("./config.js");
+// const config = require("./config.js");
 const Twitter = require("twitter");
+let config = {
+  consumer_key: process.env.BOT_CONSUMER_KEY,
+  consumer_secret: process.env.BOT_CONSUMER_SECRET,
+  access_token_key: process.env.BOT_ACCESS_TOKEN,
+  access_token_secret: process.env.BOT_ACCESS_TOKEN_SECRET,
+};
 
 //animenewsnetwork id's go up to about 23333 as of 6/1/2020
 let randime = Math.floor(Math.random() * 23333);
